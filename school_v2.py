@@ -3,7 +3,9 @@
 
 Print the list of children grouped by each room attended by each activity
 """
-__version__ = "0.1.1"
+__author__ = "Juan Carlos"
+__version__ = "0.1.0"
+__license__ = "Unlicense"
 
 # Data
 room1 = ["Erik", "Maria", "Gustavo", "manuel", "Sofia", "Joana"]

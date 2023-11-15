@@ -3,10 +3,12 @@
 
 Print the list of children grouped by each room attended by each activity
 """
-__version__ = "0.1.2"
+__author__ = "Juan Carlos"
+__version__ = "0.1.0"
+__license__ = "Unlicense"
 
 # Data
-rooms = {
+rooms =   {
 "room1": ["Erik", "Maia", "Gustavo", "Manuel", "Sofia", "Joana"],
 "room2": ["Joao", "Antonio", "Carlos", "Maria", "Isolda"]
 }
