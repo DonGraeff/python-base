@@ -14,8 +14,10 @@ multiplication table of 2
 ...
 _____________
 """
-__version__ = "0.1.1"
-__author__ = "Juan"
+
+__author__ = "Juan Carlos"
+__version__ = "0.1.0"
+__license__ = "Unlicense"
 
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # interable (percorriveis)
