@@ -15,23 +15,19 @@ Execution:
     or
     ./hello.py
 """
-__version__ = "0.0.1"
+__version__ = "0.1.2"
 __author__ = "Juan Carlos"
 __license__ = "Unlicense"
 
-from os import getenv
+import os
 
-current_languague = getenv("LANG","en_US")[:5]
+current_languague = os.getenv("LANG","en_US")[:5]
 
-msg = "Hello, World!"
-
-if current_languague == "pt_BR":
-    msg = "Olá, Mundo!"
-elif current_languague == "it_IT":
-    msg= "Ciao, Mondo!"
-elif current_languague == "es_SP":
-    msg= "Hola, Mundo!"
-elif current_languague == "fr_FR":
-    msg= "Bonjour Monde"
-
-print (msg)
+msg = {
+    "en_US": "Hello, World!",
+    "pt_BR": "Olá, Mundo!",
+    "it_IT": "Ciao, Mondo!",
+    "es_SP": "Hola, Mundo!",
+    "fr_FR": "Bonjour, Monde!",
+}
+print(msg[current_languague])
